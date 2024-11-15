@@ -1,0 +1,26 @@
+/* HomePage.css */
+
+.homepage {
+    text-align: center;
+    padding: 20px;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.category {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.category:hover {
+    background-color: #0056b3;
+}
