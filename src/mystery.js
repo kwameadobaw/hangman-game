@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom"; // Import Link from React Router
 import HangmanCanvas from "./HangmanCanvas";
 import "./HangmanGame.css";
-import wordsData from "./movie_titles.json"; // Import JSON data
+import wordsData from "./mystery.json"; // Import JSON data
 
-const MovieTitles = () => {
+const Mystery = () => {
     const [word, setWord] = useState("");
     const [guessedLetters, setGuessedLetters] = useState([]);
     const [mistakes, setMistakes] = useState(0);
@@ -64,7 +64,7 @@ const MovieTitles = () => {
 
     return (
         <div className="hangman-container">
-            <h1>Movie Titles</h1>
+            <h1>Mystery Category</h1>
             <h5>
                 Hangman is a word-guessing game. Start a new game, guess letters
                 to reveal the word, and avoid drawing the hangman by making
@@ -108,4 +108,4 @@ const MovieTitles = () => {
     );
 };
 
-export default MovieTitles;
+export default Mystery;

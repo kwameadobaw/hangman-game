@@ -64,7 +64,7 @@ const FootballTeams = () => {
 
     return (
         <div className="hangman-container">
-            <h1>Hangman Game</h1>
+            <h1>Football Teams</h1>
             <h5>
                 Hangman is a word-guessing game. Start a new game, guess letters
                 to reveal the word, and avoid drawing the hangman by making
